@@ -12,6 +12,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import React, { useEffect } from "react";
 
 function App() {
+  // Prevent user from seeing the source code
   useEffect(() => {
     // Disable right-click
     const handleContextMenu = (event) => event.preventDefault();
